@@ -6,6 +6,20 @@
     <title>Git-Github</title>
 </head>
 <body>
-    <h1>Apendendo Git</h1>
+    <h1 style="color : rgb(2, 255, 2)">Aprendendo Git</h1>
+    <button onclick="changeBackgroundColor()">DarckMode</button>
+    <script>
+        function changeBackgroundColor(){
+          let cor = "rgb(0, 0, 0)"    // cor preto
+          
+          if(document.body.style.backgroundColor === cor){
+            cor = "rgb(255,255,255)"
+          }else{
+            cor = "rgb(0, 0, 0)"
+          }
+
+          document.body.style.backgroundColor = cor
+        }
+    </script>
 </body>
 </html>
